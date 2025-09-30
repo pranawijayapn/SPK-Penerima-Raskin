@@ -1,62 +1,8 @@
-# CodeIgniter 4 Application Starter
-
-## What is CodeIgniter?
-
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
-
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
-
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-## Installation & updates
-
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+<img width="792" height="235" alt="image" src="https://github.com/user-attachments/assets/1a35b77d-4aa8-403b-9522-e44b5fa00668" /><img width="758" height="256" alt="image" src="https://github.com/user-attachments/assets/5d9e37c3-dca4-4630-b96f-a239653e6a84" />
+<img width="741" height="190" alt="image" src="https://github.com/user-attachments/assets/cb3dd85c-4a5f-4a7e-a0ef-71bdfaae62ef" />
+<img width="656" height="307" alt="image" src="https://github.com/user-attachments/assets/79b86658-c9bf-4774-9cc7-9cc6d1e0534e" />
+<img width="699" height="383" alt="image" src="https://github.com/user-attachments/assets/80a070e4-1622-4fdc-8c90-2b7e818e1831" />
+<img width="719" height="471" alt="image" src="https://github.com/user-attachments/assets/a6d3c5ea-7b4e-4c07-bb35-d236542a744d" />
+<img width="792" height="235" alt="image" src="https://github.com/user-attachments/assets/f9323ebb-85de-4906-8259-94b6c707544c" />
+<img width="752" height="216" alt="image" src="https://github.com/user-attachments/assets/78d44402-c079-4e27-90ca-6f0c47dedffa" />
+<img width="776" height="225" alt="image" src="https://github.com/user-attachments/assets/4acea788-d546-4e9e-9982-722cb7c8e31c" />
